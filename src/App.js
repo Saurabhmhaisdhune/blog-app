@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
@@ -12,6 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
+        <Route path='/' element={<Navigate replace to="/auth" />}/>
         <Route path='/auth' element={<Auth/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/postblog' element={<PostBlog/>}/>
