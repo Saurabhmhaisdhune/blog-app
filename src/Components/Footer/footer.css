@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    padding-top: 50px;
+    font-size: 12px;
+    background-color: #cbebe6d4;
+  }
+  .fLists {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 50px;
+  }
+  .fList {
+    list-style: none;
+    padding: 0;
+  }
+  .fListItem {
+    margin-bottom: 10px;
+    color: #000000;
+    cursor: pointer;
+  }
+  .tip {
+    visibility: hidden;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.711);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: medium;
+    z-index: 1;
+    font-size: small;
+    position: relative;
+    top: 45px;
+    right: 100px;
+  }
+  .adminroute:hover .tip {
+    visibility: visible;
+    transition-delay: 100ms;
+  }
+  .adminroute {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px 10px 0px;
+  }

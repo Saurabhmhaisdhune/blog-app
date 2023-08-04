@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+}
+.categories{
+    font-size: 23px;
+    font-weight: 500;
+}

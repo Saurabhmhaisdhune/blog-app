@@ -1,0 +1,19 @@
+.blog-cards{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+}
+img{
+    object-fit: cover;
+}
+.main-div{
+
+    display: flexbox;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+}

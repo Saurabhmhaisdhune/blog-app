@@ -1,0 +1,14 @@
+.background {
+    background-image: url(./image/headphone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+  }
+  h1{
+    position: relative;
+    bottom: 80px;
+  }

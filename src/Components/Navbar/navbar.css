@@ -1,0 +1,46 @@
+ .nav-bar{
+    background-image: url(./navimag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    height: 60vh;
+ }
+ .navbar-content{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 200px 0px 200px;
+   color: white;
+ }
+ .hcac{
+   font-size: large;
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 30px;
+ }
+ .navbar-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   position: relative;
+   top: 220px;
+   font-size: 35px;
+   gap: 10px;
+ }
+.post{
+   width: 150px;
+   height: 40px;
+   font-size: 17px;
+}
+.hcac label:hover{
+   cursor: pointer;
+}
