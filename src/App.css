@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(243, 243, 243);
+
 }
 body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */

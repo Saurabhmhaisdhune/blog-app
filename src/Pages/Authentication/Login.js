@@ -10,13 +10,6 @@ const initialValue = {
 
 const Login = () => {
   const [hotelData, setHotelData] = useState(initialValue);
-  const [show, setShow] = useState(false);
-  const [btn, setbtn] = useState(false);
-
-  const handleCredendials = () => {
-    setShow((prev) => !prev);
-    setbtn((prev) => !prev);
-  };
 
   const navigate = useNavigate();
 
